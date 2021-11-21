@@ -102,9 +102,57 @@
 
 // ==============================
 
-function maxSubarraySum(arr, sum) {}
-console.log(maxSubarraySum([1, 2, 5, 2, 8, 1, 5], 2)); //10
-console.log(maxSubarraySum([1, 2, 5, 2, 8, 1, 5], 4)); //17
-console.log(maxSubarraySum([4, 2, 1, 6], 1)); //6
-console.log(maxSubarraySum([4, 2, 1, 6, 2], 4)); //13
-console.log(maxSubarraySum([], 4)); //null
+// function maxSubarraySum(arr, sum) {
+//   let pointer = [];
+//   let total = 0;
+//   let total2 = 0;
+//   if (arr.length == 0) {
+//     return null;
+//   }
+//   for (let i = 0; i < sum; i++) {
+//     pointer.push(arr[i]);
+//     total += arr[i];
+//     console.log(arr[i]);
+//     i++;
+//     sum++;
+//     console.log(arr[i]);
+//     total2 += arr[i];
+//   }
+//   console.log(total);
+//   console.log(total2);
+//   console.log(pointer);
+//   for (let i = 0; i < arr.length; i++) {}
+// }
+// console.log(maxSubarraySum([1, 2, 5, 2, 8, 1, 5], 2)); //10
+// console.log(maxSubarraySum([1, 2, 5, 2, 8, 1, 5], 4)); //17
+// console.log(maxSubarraySum([4, 2, 1, 6], 1)); //6
+// console.log(maxSubarraySum([4, 2, 1, 6, 2], 4)); //13
+// console.log(maxSubarraySum([], 4)); //null
+
+// ==============================
+
+let i = 0;
+const x = {
+  toString: function () {
+    i = i + 5;
+    return i;
+  },
+};
+// console.log(x.toString());
+// console.log(x.toString());
+// console.log(x.toString());
+// console.log(x.toString());
+// console.log(x.toString());
+
+// x.join = x.shift;
+// console.log(x.join());
+// console.log(x.shift());
+// console.log(x.join());
+// console.log(x.shift());
+// console.log(x.join());
+// console.log(x.shift());
+
+//Don't edit this condition
+if (x == 5 && x == 10 && x == 15) {
+  alert("Challenge Done");
+}
